@@ -7,7 +7,7 @@ import Currency from "@/components/ui/currency";
 import { Button } from "@/components/ui/button";
 
 interface InfoProps {
-  data: Product | undefined;
+  data: Product;
 }
 
 const Info: React.FC<InfoProps> = ({ data }) => {

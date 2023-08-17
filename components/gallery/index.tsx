@@ -7,7 +7,7 @@ import { Image as ImageType } from "@/types";
 import GalleryTab from "./gallery-tab";
 
 interface GalleryProps {
-  images: ImageType[] | undefined;
+  images: ImageType[];
 }
 
 const Gallery: React.FC<GalleryProps> = ({ images }) => {
